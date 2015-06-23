@@ -20,7 +20,7 @@
 @implementation FRKStackedButton
 
 - (instancetype)initWithFrame:(CGRect)frame {
-    self = [super init];
+    self = [super initWithFrame:frame];
     if (!self) return nil;
     
     [self defaultValues];
