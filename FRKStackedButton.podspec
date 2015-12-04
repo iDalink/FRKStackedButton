@@ -7,8 +7,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Frank Courville" => "frank.courville+oss@gmail.com" }
   s.social_media_url   = "http://twitter.com/frankacy"
-  s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/Frankacy/FRKStackedButton", 
+  s.source       = { :git => "https://github.com/iDalink/FRKStackedButton", 
   		     :tag => "0.1" }
   s.source_files  = "classes/*.{h,m}"
   s.framework  = "UIKit"
